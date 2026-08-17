@@ -16,12 +16,14 @@ Modelin mevcut performansını daha da ileriye taşımak için planlanan güncel
 * **Ateş Veri Setinin Genişletilmesi:** Ateş sınıfındaki tespit başarısını (0.60 mAP) duman seviyesine çıkarmak için, veri setine gece/gündüz çekilmiş, farklı boyut ve renklerde daha fazla ateş/alev görseli eklenecek ve model yeniden eğitilecektir.
 * **Negatif Örneklerin Eklenmesi:** Sis, bulut, gün batımı kızıllığı veya parlak ışıklar gibi modelin kafasını karıştırabilecek arka plan görselleri (background images) veri setine dahil edilerek yanlış alarmlar (false-positive) en aza indirilecektir.
 * SONUCLAR
-  ## 📈 Model Değerlendirme Grafikleri
+  ##  Model Değerlendirme Grafikleri
 
 Aşağıdaki grafikte modelin Ateş ve Duman sınıflarındaki Hassasiyet-Duyarlılık (Precision-Recall) eğrisini görebilirsiniz:
 
 ![PR Eğrisi](BoxPR_curve.png)
 
+ ##  Inference 
+  ![Örnek test](example.png)
 
 ## Kurulum
 
