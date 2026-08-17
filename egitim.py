@@ -8,7 +8,7 @@ def train_fire_smoke_model():
 
     # 2. Modeli Eğit ve Ara Kayıtları (Checkpoint) Al
     results = model.train(
-        data=r"C:\Users\tavan\OneDrive\Masaüstü\infodif\YOLO_Hazir_Veriseti\data.yaml", 
+        data=r"YOLO_Hazir_Veriseti\data.yaml", 
         epochs=100, 
         imgsz=640,
         batch=16,
