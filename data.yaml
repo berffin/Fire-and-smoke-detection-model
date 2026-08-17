@@ -1,4 +1,4 @@
-train: YOLO_Hazir_Veriseti\images\train
-val: YOLO_Hazir_Veriseti\images\val
+train: train
+val: val
 nc: 2 # Sınıf sayısı
 names: ['smoke', 'fire'] # Sınıf isimleri
