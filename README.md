@@ -20,14 +20,9 @@ Modelin mevcut performansını daha da ileriye taşımak için planlanan güncel
 
 Aşağıdaki grafikte modelin Ateş ve Duman sınıflarındaki Hassasiyet-Duyarlılık (Precision-Recall) eğrisini görebilirsiniz:
 
-![PR Eğrisi](pr_curve.png)
+![PR Eğrisi](BoxPR_curve.png)
 
 
-## 🖼️ Örnek Tespit Sonuçları
-
-Modelin daha önce hiç görmediği görseller üzerindeki test sonuçları:
-
-![Örnek Tespit 1](ornek_tespit1.jpg)
 ## Kurulum
 
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
