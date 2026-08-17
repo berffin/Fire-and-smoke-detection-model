@@ -1,0 +1,4 @@
+train: C:\Users\tavan\OneDrive\Masaüstü\infodif\YOLO_Hazir_Veriseti\images\train
+val: C:\Users\tavan\OneDrive\Masaüstü\infodif\YOLO_Hazir_Veriseti\images\val
+nc: 2 # Sınıf sayısı
+names: ['smoke', 'fire'] # Sınıf isimleri
