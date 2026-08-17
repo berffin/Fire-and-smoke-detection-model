@@ -1,0 +1,19 @@
+# Temel YOLO Kütüphanesi
+ultralytics>=8.3.0
+
+# Görüntü İşleme ve Veri Manipülasyonu
+opencv-python>=4.6.0
+numpy>=1.23.0
+Pillow>=9.0.0
+PyYAML>=5.3.1
+matplotlib>=3.3.0
+pandas>=1.1.4
+
+# PyTorch Ekosistemi (Derin Öğrenme)
+# ÖNEMLİ NOT: Standart pip kurulumu CPU sürümünü indirir. 
+# GPU'nuzun (CUDA) çalışmaya devam etmesi için PyTorch'un kendi sunucusunu gösteriyoruz.
+# (Aşağıdaki link daha önce konuştuğumuz CUDA 13.0 içindir, sisteminize göre cu126 olarak da değiştirebilirsiniz)
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch
+torchvision
+torchaudio
