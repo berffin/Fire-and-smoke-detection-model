@@ -8,7 +8,7 @@ def train_fire_smoke_model():
 
     # 2. Modeli Eğit ve Ara Kayıtları (Checkpoint) Al
     results = model.train(
-        data=r"YOLO_Hazir_Veriseti\data.yaml", 
+        data="data.yaml", 
         epochs=100, 
         imgsz=640,
         batch=16,
@@ -30,7 +30,7 @@ def train_fire_smoke_model():
     print("-" * 50)
     print("Eğitim başarıyla tamamlandı!")
     print("Ara modelleriniz şu klasöre kaydedildi:")
-    print(r"Fire_Smoke\egitilmis_sn\weights")
+    print("weights")
 
 if __name__ == "__main__":
     train_fire_smoke_model()
